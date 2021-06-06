@@ -248,4 +248,4 @@ with open(output_path , "w") as csvfile:
     for loan in inexpensive_loans:
           csvwriter.writerow(loan.values())
 
-print("Data is now in a file, look for the file name inexpensive_loans.csv")
+print("The Data is now in a file, look for the file name inexpensive_loans.csv")
